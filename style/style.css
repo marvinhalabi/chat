@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css?family=Patua+One|Roboto|Allura');
+/* Enkel CSS-reset */
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+body,
+html {
+    height: 100%;
+    display: grid;
+    background: #333;
+}
+
+#ChatBig {
+    width: 500px;
+    height: 450px;
+    margin: 100px auto;
+
+
+}
+
+#ChatMessages {
+    width: 500px;
+    height: 400px;
+    font-size: 18px;
+    overflow-y: scroll;
+    color: white;
+    margin-bottom: 50px;
+    text-shadow: 3px 3px 1px #000;
+    padding: 5px;
+    border: 11px outset grey;
+
+
+}
+
+#ChatText {
+    width: 500px;
+    height: 80px;
+    margin-top: 20px;
+}
+
+#ChatText:focus {
+    outline: none;
+}
+
+h1,
+h2 {
+    font-family: 'Patua One', cursive;
+    text-shadow: 3px 3px 1px #000;
+    color: white;
+    text-align: center;
+
+
+}
+
+h2 {
+    font-size: 250%;
+}
+
+.UserNameS {
+    color: #4db2ff;
+}
+
+.UserNameS:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#Login,
+#SignUp {
+    display: block;
+    color: #9b9a9a;
+    padding: 40px;
+    font-weight: bold;
+    margin: auto;
+}
+
+form {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+td {
+    padding: 5px;
+}
+
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+
+textarea {
+    outline: none;
+    resize: none;
+    background-color: #121212;
+    border: none;
+    color: white;
+}
