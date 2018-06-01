@@ -31,6 +31,17 @@ html {
     background: #333;
 }
 
+.max {
+    color: #ff2525;
+    display: inline-block;
+}
+
+.min {
+    color: #3a3aff;
+    display: inline-block;
+}
+
+
 #ChatBig {
     width: 500px;
     height: 450px;
@@ -75,6 +86,10 @@ h2 {
     color: white;
     text-align: center;
 
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
 }
 
 
